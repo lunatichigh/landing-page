@@ -10,15 +10,18 @@ header {
     display: flex;
     flex: 1;
     background-color: #1F2937;
-    padding: 75px;
     flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 425px;
+    padding-right: 425px;
+    padding-bottom: 50px;
 }
 .logo {
+    flex: 1 0 85%;
     font-size: 24px;
     color: #F9FAF8;
-    flex-basis: 65%;
-    margin: 0;
-    
+    margin-bottom: 100px;
+    display: flex;
 }
 .hero-text {
     display: flex;
@@ -41,9 +44,10 @@ header {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
-    justify-content: flex-end;
-
+    justify-content: end;
+    gap: 30px;
 }
+
 .umbrella-logo {
     display: flex;
     flex: 1;
@@ -63,8 +67,13 @@ img {
     border: none;
     border-radius: 6px;
 }
-a:link {
+a:link{
     text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
 }
 ul {
     list-style-type: none;
@@ -78,14 +87,14 @@ ul {
     align-items: center;
     font-size: 36px;
     font-weight: bold;
-    padding: 75px;
+    padding-top: 75px;
 }
 .information {
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 75px;
+    padding: 75px 75px 100px 75px;
 }
 .box {
     height: 200px;
@@ -133,11 +142,11 @@ figcaption {
     margin: 0;
     justify-content: center;
     align-items: center;
-    padding: 75px;
+    padding: 75px 75px 150px 75px;
 }
 .sign-up-block {
     display: flex;
-    padding: 50px 100px 50px 100px;
+    padding: 75px 300px 75px 300px;
     background-color:#3882F6;
     margin-top: 100px;
     border-radius: 6px;
@@ -148,14 +157,35 @@ figcaption {
     padding: 5px;
     width: 100px;
     border: solid;
+    border-width: 1px;
     border-radius: 6px;
-    margin-left: auto;
+    font-size: 13px;
+    margin-left: 100px;
+    height: 35px;
 }
 span {
-    flex-basis: 50%;
-    margin-left: 25px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+.cta {
+    color: #F9FAF8;
 }
 
+.cta-subtext {
+    font-size: 12px;
+    color: #1F2937;
+}
 
+/*===Footer===*/
+footer {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 50px;
+}
 
 
